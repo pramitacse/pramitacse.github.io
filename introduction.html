@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction Page</title>
+    <style>
+
+        h{
+            background-color: black;color: beige;font-size:100%;text_align:Center
+        }
+        p{
+            color:black;font-family: "Arial Narrow";font-size:100%;text_align:justified;
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+<p align="center"><a href="index.html" target="_blank">Short Bio</a></p>
+<div>
+    <h>Academic Background</h>
+    <p> Master in Science in Computer Science, 2018-2019.
+        North Carolina A & T State University,Greensboro,NC-27401
+    </p>
+     <p>   Bachelor of Science in Computer Science & Engineering, 2006-2010
+        Chittagong University of Engineering & Technology, Chittagong, Bangladesh.
+    </p>
+</div>
+<div>
+    <h>Skill</h>
+    <p><b> Languages/ Scripting:</b> Java/ Java EE, C, Android, PHP, Python.</p>
+    <p><b> Web:</b> JSON, HTML5, CSS,JavaScript.</p>
+    <p><b> Databases:</b> Oracle, MySQL.</p>
+    <p><b> Web/ App. Servers:</b> Apache Tomcat, XAMPP.</p>
+    <p><b> Miscellaneous:</b> Android Studio, Eclipse, Netbeans,Dreamweaver, Hadoop,vmware, Git, OpenGL, Mathlab.</p>
+</div>
+<div>
+    <h> Research Interest</h>
+    <p>My research area includes both <span style="background-color: aquamarine;">Cyber-Security</span> and <span style="background-color: aquamarine;">Machine Learning.</span>Analyzing on Deep Learning
+    approaches, is one of my research interest. How efficiently different approaches work on the same kind of dataset and what are the limitations and risks of implementing the algorithm are some of my
+    experiments. I have implemented a few network intrusion detection system(NIDS) by using some traditional machine learning approaches such as Supervised and semi-supervised
+    <a href="https://en.wikipedia.org/wiki/Support-vector_machine" target="_blank">Support Vector Machine</a> and supervised and semi-supervised
+    <a href="https://en.wikipedia.org/wiki/Random_forest" target="_blank">Random Forest.</a>I have implemented another NIDS using LSTM-RNN, which is a deep-learning approach.</p>
+</div>
+<div class="row">
+        <div class="column">
+            <img src="imageSupervisedNUnsupervised%20algorithms.png" border="5" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="LSTM-RNN.png"  border="5" style="width:100%">
+        </div>
+</div>
+</body>
+</html>
