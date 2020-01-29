@@ -1,0 +1,40 @@
+body{
+    font-family: Calibri;
+}
+line{
+    stroke:#aaa;
+}
+#black{
+    stroke:black;
+    stroke-width:1;
+}
+rect{
+    height:50px;
+    x:50px;
+}
+.bar{
+    fill:#1e99e7;
+    opacity: 0.7;
+    font-size:24pt;
+    font-weight:bold;
+
+}
+.xlabel{
+    fill:#aaa;
+    font-size:14pt;
+    text-anchor:middle;
+}
+
+ .ylabel{
+     font-size:25pt;
+     fill:gray;
+     font-weight:bold;
+     text-anchor:end;
+ }
+h1{
+    text-align: center;
+    font-size:x-large;
+    color: black;
+    text-decoration: aquamarine;
+}
+
